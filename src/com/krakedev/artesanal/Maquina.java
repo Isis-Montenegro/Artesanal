@@ -8,7 +8,12 @@ public class Maquina {
 	private double capacidadMaxima;
 	private double cantidadActual;
 
-	public Maquina(String codigo, String nombreCerveza, String descripcion, double precioPorMl, double capacidadMaxima) {
+	public Maquina() {
+
+	}
+
+	public Maquina(String codigo, String nombreCerveza, String descripcion, double precioPorMl,
+			double capacidadMaxima) {
 		this.codigo = codigo;
 		this.nombreCerveza = nombreCerveza;
 		this.descripcion = descripcion;
